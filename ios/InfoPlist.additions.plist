@@ -1,1 +1,10 @@
-
+<!-- أضف هذه المفاتيح داخل Info.plist في Xcode (قسم Info) -->
+<key>NSCameraUsageDescription</key>
+<string>يحتاج التطبيق للوصول إلى الكاميرا للمشاركة في الغرفة.</string>
+<key>NSMicrophoneUsageDescription</key>
+<string>يحتاج التطبيق للوصول إلى الميكروفون للتحدث في الغرفة.</string>
+<key>NSBluetoothAlwaysUsageDescription</key>
+<string>قد يُستخدم البلوتوث لتحسين جودة الصوت عبر أجهزة خارجية.</string>
+<!-- يسمح بتشغيل الفيديو داخل الصفحة -->
+<key>WKAppBoundsUserInterfaceStyle</key>
+<string>automatic</string>
